@@ -1,0 +1,27 @@
+{
+  "name": "learning-platform",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://yourusername.github.io/js-nextjs-learning-platform",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write",
+    "predeploy": "next build && next export",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "lucide-react": "^0.542.0",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@tailwindcss/postcss": "^4",
+    "gh-pages": "^5.0.0",
+    "tailwindcss": "^4"
+  }
+}
